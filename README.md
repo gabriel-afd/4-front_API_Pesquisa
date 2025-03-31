@@ -1,24 +1,78 @@
-# frontend-operadoras
+# Front-end: Pesquisa de Operadoras de Saúde 🚀
 
-## Project setup
+Este é o front-end do projeto de **busca de operadoras de saúde**, desenvolvido com **Vue.js 3**. Ele consome a API back-end implementada em Java Spring Boot e permite buscas interativas com filtros como nome, cidade e UF.
+
+---
+
+### ✅ Passos para rodar localmente
+
+1. Clone o repositório:
+
+```bash
+git clone https://github.com/seu-usuario/seu-repo-frontend.git
+cd seu-repo-frontend
 ```
+
+2. Instale as dependências:
+
+```bash
 npm install
 ```
 
-### Compiles and hot-reloads for development
-```
+3. Execute o projeto:
+
+```bash
 npm run serve
 ```
 
-### Compiles and minifies for production
-```
-npm run build
+
+---
+
+## 🎓 Descrição do Projeto
+
+O usuário pode digitar um termo, selecionar uma UF e/ou digitar uma cidade para buscar operadoras de saúde de forma filtrada.
+
+- A busca é feita com base na API REST criada no back-end
+- Resultados são exibidos com paginação (10 por página)
+- Caso não existam resultados, uma mensagem amigável é exibida
+
+---
+
+## 🔄 Integração com a API
+
+Este front consome a rota:
+
+```http
+GET http://localhost:8080/operadoras/busca
 ```
 
-### Lints and fixes files
+Parâmetros disponíveis:
+- `termo` (ex: nome fantasia, razão social, cnpj etc.)
+- `cidade`
+- `uf`
+
+Exemplo de URL gerada:
 ```
-npm run lint
+http://localhost:8080/operadoras/busca?termo=saude&cidade=Recife&uf=PE
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+---
+
+## 🚪 Deploy
+
+O front-end está publicado em:
+
+👉 https://front-api-pesquisa-deploy.onrender.com/
+
+> ⚠️ O Render pode demorar de **20 a 50 segundos** no primeiro acesso gratuito (free tier)
+
+
+---
+
+## 👤 Autor
+
+**Gabriel Medeiros de Mendonça**  
+[github.com/gabriel-afd](https://github.com/gabriel-afd)  
+gmedeiros144@gmail.com
+
+
