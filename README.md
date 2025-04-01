@@ -12,20 +12,32 @@ Este é o front-end do projeto de **busca de operadoras de saúde**, desenvolvid
 git clone https://github.com/gabriel-afd/4-front_API_Pesquisa.git
 ```
 
-2. Instale as dependências:
+2. Antes de executar o projeto, você precisa ter instalado:
+
+- [Node.js (versão LTS)](https://nodejs.org)
+  > O `npm` (Node Package Manager) já vem incluso ao instalar o Node.js.
+
+Para verificar se estão corretamente instalados: 
 
 ```bash
+node -v
+npm -v 
+
+3. Abra a pasta do projeto clonado no VSCode
+
+4. Instale as dependências:
+```
 npm install
 ```
 
-3. Execute o projeto:
+5. Execute o servidor e o projeto ficará disponivel em seu localhost:
 
-```bash
+```
 npm run serve
 ```
 
-
 ---
+
 
 ## 🎓 Descrição do Projeto
 
