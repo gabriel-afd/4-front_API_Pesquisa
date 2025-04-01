@@ -9,8 +9,7 @@ Este é o front-end do projeto de **busca de operadoras de saúde**, desenvolvid
 1. Clone o repositório:
 
 ```bash
-git clone https://github.com/seu-usuario/seu-repo-frontend.git
-cd seu-repo-frontend
+git clone https://github.com/gabriel-afd/4-front_API_Pesquisa.git
 ```
 
 2. Instale as dependências:
