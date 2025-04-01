@@ -5,36 +5,61 @@ Este é o front-end do projeto de **busca de operadoras de saúde**, desenvolvid
 ---
 
 ### ✅ Passos para rodar localmente
-
-1. Clone o repositório:
+### 1. Clone o repositório:
 
 ```bash
 git clone https://github.com/gabriel-afd/4-front_API_Pesquisa.git
 ```
 
-2. Antes de executar o projeto, você precisa ter instalado:
+---
 
-- [Node.js (versão LTS)](https://nodejs.org)
-  > O `npm` (Node Package Manager) já vem incluso ao instalar o Node.js.
+### 2. Instale o Node.js
 
-Para verificar se estão corretamente instalados: 
+Antes de executar o projeto, é necessário ter o **Node.js** instalado.
+
+Baixe e instale a versão LTS em:  
+👉 [https://nodejs.org](https://nodejs.org)
+
+> O `npm` (Node Package Manager) já vem incluso com o Node.js.
+
+Após a instalação, verifique se tudo está funcionando corretamente:
 
 ```bash
 node -v
-npm -v 
-
-3. Abra a pasta do projeto clonado no VSCode
-
-4. Instale as dependências:
+npm -v
 ```
+
+---
+
+### 3. Abra a pasta do projeto clonado no VS Code
+
+```bash
+cd 4-front_API_Pesquisa
+code .
+```
+
+---
+
+### 4. Instale as dependências do projeto:
+
+```bash
 npm install
 ```
 
-5. Execute o servidor e o projeto ficará disponivel em seu localhost:
+---
 
-```
+### 5. Execute o servidor de desenvolvimento:
+
+```bash
 npm run serve
 ```
+
+Após a inicialização, o projeto estará disponível no seu navegador em:
+
+```
+http://localhost:8080
+```
+
 
 ---
 
